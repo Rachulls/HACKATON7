@@ -1,0 +1,497 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&family=Raleway:wght@400;900&display=swap");
+
+* {
+  box-sizing: border-box;
+  font-family: Montserrat;
+}
+
+body {
+  background: #f2f2f2;
+  padding: 30px;
+}
+
+img {
+  width: 100%;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 32px;
+}
+
+.container__one {
+  width: 413px;
+  margin-bottom: 183px;
+}
+
+.title {
+  background-color: #ffffff;
+  border-radius: 12px;
+  padding: 23px 23px;
+}
+
+.photo {
+  width: 100%;
+}
+
+.title h2 {
+  color: #4f4f4f;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.title .contact {
+  color: var(--Gray-2, #4f4f4f);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  display: grid;
+  grid-template-columns: 5% 90%;
+  align-items: center;
+  p {
+    margin-left: 20px;
+  }
+}
+
+.title span,
+h4 {
+  color: var(--Gray-3, #828282);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  padding-right: 50px;
+}
+
+.experiences {
+  border-radius: 12px;
+  background: #fff;
+  margin-top: 45px;
+  padding: 22px 22px 0 22px;
+}
+
+.date {
+  color: #828282;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.experiences h2 {
+  color: #4f4f4f;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-bottom: 50px;
+}
+
+.experiences h3 {
+  color: #333;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-bottom: 30px;
+}
+
+.text {
+  color: #828282;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.experiences__item {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  margin-top: 30px;
+}
+
+.hobbies {
+  border-radius: 12px;
+  background: #fff;
+  margin-top: 44px;
+  padding: 22px;
+}
+
+.hobbies__item {
+  margin-bottom: 20px;
+}
+
+.hobbies__item img {
+  width: 100%;
+}
+
+.hobbies h2 {
+  color: #4f4f4f;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-top: 0;
+}
+
+.hobbies h3 {
+  color: #333;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.hobbies span {
+  color: #828282;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.skills {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 32px;
+}
+
+.frontend {
+  border-radius: 12px;
+  background-color: #fff;
+  padding: 22px 22px;
+}
+
+.frontend h2 {
+  color: var(--Gray-2, #4f4f4f);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 10px;
+}
+
+.frontend p {
+  color: #4f4f4f;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+progress {
+  width: 70%;
+}
+
+.frontend__item,
+.design__item {
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  p {
+    width: 30%;
+    margin-bottom: 8px;
+  }
+}
+
+.design {
+  height: 157px;
+  border-radius: 12px;
+  background: #fff;
+  padding: 22px;
+}
+
+.design h2 {
+  color: var(--Gray-2, #4f4f4f);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.design p {
+  color: #4f4f4f;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.projects {
+  margin-top: 48px;
+}
+
+.project__title {
+  width: 100%;
+  border-radius: 12px;
+  background: #fff;
+  padding: 22px;
+  color: #4f4f4f;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.project__item {
+  width: 100%;
+  border-radius: 12px;
+  background: #fff;
+  margin-top: 16px;
+  display: grid;
+  grid-template-columns: 45% 55%;
+  padding: 30px;
+  gap: 25px;
+  margin-bottom: 36px;
+}
+
+.project__item p {
+  color: #4f4f4f;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.project__item h2 {
+  color: #333;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.project__item span {
+  color: #828282;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.btns {
+  margin-top: 43px;
+}
+
+.demo {
+  color: white;
+  border-radius: 12px;
+  background: #2f80ed;
+  width: 136.269px;
+  height: 46px;
+  border: none;
+}
+
+.code {
+  color: #2f80ed;
+  background-color: white;
+  width: 119.109px;
+  height: 46px;
+  border: 1px solid #2f80ed;
+  border-radius: 12px;
+  margin-left: 11.1px;
+}
+
+.blog__title {
+  width: 100%;
+  border-radius: 12px;
+  background: #fff;
+  padding: 22px;
+  color: #4f4f4f;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.blog__item {
+  width: 100%;
+  border-radius: 12px;
+  background: #fff;
+  margin-top: 16px;
+  display: grid;
+  grid-template-columns: 30% 66.5%;
+  padding: 22px 0 0 22px;
+  gap: 25px;
+}
+
+.blog__item h4 {
+  color: #e0e0e0;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin: 0;
+}
+
+.blog__item h2 {
+  color: #333;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.blog__item span {
+  color: #828282;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.blog__item h5 {
+  color: #2f80ed;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+@media (max-width: 600px) {
+  .container {
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    gap: 12px;
+  }
+
+  .container__one {
+    width: 207px;
+    margin-bottom: 183px;
+  }
+
+  .skills {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 32px;
+  }
+
+  .icon{
+    display: none;
+  }
+
+  .title h2{
+    font-size: 14px;
+  }
+
+  .title span{
+    font-size: 10px;
+  }
+
+  .title p{
+    font-size: 10px;
+    /* margin: 0; */
+  }
+
+  .title h4{
+    font-size: 10px;
+  }
+
+  .title .contact {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .contact{
+    transform: translate(-20px, 10px);
+  }
+
+  .experiences{
+    padding: 10px;
+  }
+
+  .experiences h2{
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+
+  .experiences__item{
+    margin-top: 10px;
+  }
+
+  .experiences__item img{
+    width: 40px;
+    height: 40px;
+  }
+
+  .experiences__item span{
+    font-size: 12px;
+  }
+
+  .experiences__item h3{
+    font-size: 12px;
+    margin-bottom: 10px;
+  }
+
+  .experiences__item .text{
+    font-size: 12px;
+    line-height: 1px;
+  }
+
+  .hobbies h2{
+    font-size: 14px;
+  }
+
+  .hobbies h3{
+    font-size: 10px;
+  }
+
+  .hobbies span{
+    font-size: 10px;
+  }
+
+  .frontend h2{
+    font-size: 14px;
+  }
+
+  .frontend__item p{
+    font-size: 10px;
+  }
+
+  .design h2{
+    font-size: 14px;
+  }
+
+  .design__item p{
+    font-size: 10px;
+  }
+
+  .project__title{
+    font-size: 14px;
+  }
+
+  .project__item{
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .btns{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .blog__item{
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 480px){
+    .container{
+        display: grid;
+        grid-template-columns: 1fr;
+        width: 100%;
+    }
+    .container__one{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
